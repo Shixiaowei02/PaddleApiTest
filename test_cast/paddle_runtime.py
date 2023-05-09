@@ -1,7 +1,8 @@
 import paddle
+import sys
 from common import io
 from common import framework
-import numpy as np
+import numpy as n
 import attribute
 
 class Cast(framework.Framework):

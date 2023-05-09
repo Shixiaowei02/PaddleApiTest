@@ -2,6 +2,8 @@ import os
 import argparse
 import itertools
 import logging
+import sys
+sys.path.append("..")
 from common import io
 from common import framework
 import attribute

@@ -1,4 +1,6 @@
 import argparse
+import sys
+sys.path.append("..")
 from common import io
 
 def parse_args():

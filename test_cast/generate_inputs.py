@@ -1,5 +1,7 @@
-import attribute
+import sys
+sys.path.append("..")
 from common import io
+import attribute
 
 def generate_inputs(shape, len):
   ret = list()

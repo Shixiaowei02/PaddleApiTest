@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+sys.path.append("..")
 from common import framework
 
 class CastAttr(framework.Attribute):

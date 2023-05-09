@@ -1,4 +1,6 @@
 import torch
+import sys
+sys.path.append("..")
 from common import io
 from common import framework
 import numpy as np
